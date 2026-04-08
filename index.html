@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ayaan - Web Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#hero" class="nav-logo">AYAAN</a>
+    <div class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">What I Bring</a>
+      <a href="#services">Services</a>
+      <a href="#contact" class="nav-cta">Get in Touch</a>
+    </div>
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE DRAWER -->
+  <div class="nav-drawer" id="navDrawer">
+    <a href="#hero" class="drawer-link">Home</a>
+    <a href="#about" class="drawer-link">About Me</a>
+    <a href="#skills" class="drawer-link">What I Bring</a>
+    <a href="#services" class="drawer-link">Services</a>
+    <a href="#contact" class="drawer-link">Get in Touch</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-badge"><span></span> Available & Ready</div>
+    <h1 class="hero-name">AYA<span>AN</span></h1>
+    <p class="hero-subtitle">Crafting professional websites and digital solutions for personal brands and businesses seeking a distinctive online presence.</p>
+    <div class="hero-cta">
+      <a href="#about" class="btn btn-primary">Learn More</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      Scroll
+    </div>
+    <div class="hero-number">01</div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section" aria-hidden="true">
+    <div class="marquee-track">
+      <span>AYAAN</span><span class="dot">✦</span>
+      <span>CREATIVE</span><span class="dot">✦</span>
+      <span>DRIVEN</span><span class="dot">✦</span>
+      <span>PASSIONATE</span><span class="dot">✦</span>
+      <span>AMBITIOUS</span><span class="dot">✦</span>
+      <span>AYAAN</span><span class="dot">✦</span>
+      <span>CREATIVE</span><span class="dot">✦</span>
+      <span>DRIVEN</span><span class="dot">✦</span>
+      <span>PASSIONATE</span><span class="dot">✦</span>
+      <span>AMBITIOUS</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">01 — About</div>
+    <div class="about-grid">
+      <div class="about-content">
+        <h2 class="section-title">WHO IS<br>AYAAN?</h2>
+        <div class="about-text">
+          <p><strong>Hey, I'm Ayaan</strong> — a 13 year old website and app builder, and this is my story.</p>
+          <p>I actually started out trying YouTube, but it just didn't work out for me. Instead of giving up, I decided to try something new and gave website and app creating a shot.</p>
+          <p>And that's when everything changed. I completely <strong>fell in love with it.</strong> Building things from scratch, watching ideas come to life on screen — there's nothing else like it. I've never looked back since.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-number">13</div>
+            <div class="stat-label">Years Old</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Passion & Drive</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">2+</div>
+            <div class="stat-label">Websites & Apps Built</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">24/7</div>
+            <div class="stat-label">Always Building</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-image">
+        <div class="code-snippet">
+          <div class="code-line"><span class="code-comment">// Building the future, one line at a time</span></div>
+          <div class="code-line"><span class="code-keyword">const</span> <span class="code-function">buildWebsite</span> = () => {</div>
+          <div class="code-line">&nbsp;&nbsp;<span class="code-keyword">let</span> passion = <span class="code-string">"unlimited"</span>;</div>
+          <div class="code-line">&nbsp;&nbsp;<span class="code-keyword">let</span> skills = [<span class="code-string">"HTML"</span>, <span class="code-string">"CSS"</span>, <span class="code-string">"JavaScript"</span>];</div>
+          <div class="code-line">&nbsp;&nbsp;</div>
+          <div class="code-line">&nbsp;&nbsp;<span class="code-keyword">if</span> (passion && skills.length > 0) {</div>
+          <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">return</span> <span class="code-string">"Amazing websites!"</span>;</div>
+          <div class="code-line">&nbsp;&nbsp;}</div>
+          <div class="code-line">};</div>
+          <div class="code-line"></div>
+          <div class="code-line"><span class="code-comment">// Developer: Ayaan</span></div>
+          <div class="code-line"><span class="code-comment">// Age: 13</span></div>
+          <div class="code-line"><span class="code-comment">// Status: Always learning 🚀</span></div>
+          <div class="code-line"></div>
+          <div class="code-line"><span class="code-function">console.log</span>(<span class="code-function">buildWebsite</span>());</div>
+          <div class="code-line"><span class="code-comment">// Output: "Amazing websites!"</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills-section">
+    <div class="section-label">02 — Skills</div>
+    <h2 class="section-title">WHAT I<br>BRING</h2>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <div class="skill-icon">🎯</div>
+        <div class="skill-name">Focus</div>
+        <div class="skill-desc">Staying locked in on goals and seeing them through to the end.</div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">💡</div>
+        <div class="skill-name">Creativity</div>
+        <div class="skill-desc">Thinking outside the box to find fresh, original and unique solutions every time.</div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">🌐</div>
+        <div class="skill-name">HTML Specialist</div>
+        <div class="skill-desc">Structuring clean, well-built web pages with solid, professional-grade HTML.</div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">🔨</div>
+        <div class="skill-name">Digital Builder</div>
+        <div class="skill-desc">Creating complete digital solutions from start to finish with modern tools and technologies.</div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">📈</div>
+        <div class="skill-name">Growth</div>
+        <div class="skill-desc">Constantly pushing to learn more and become better every single day.</div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">⚡</div>
+        <div class="skill-name">Quick Ideas</div>
+        <div class="skill-desc">Turning concepts into actionable plans rapidly with creative thinking and speed.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="section-label">03 — Services</div>
+    <h2 class="section-title">WHAT I<br>OFFER</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-card-icon">🌐</div>
+        <div class="service-card-title">Web Development</div>
+        <div class="service-card-desc">I design and build clean, modern websites from scratch. Whether it's a personal site, portfolio, or business page — I bring your vision to life on the web.</div>
+        <span class="service-card-tag">Web Dev</span>
+      </div>
+      <div class="service-card">
+        <div class="service-card-icon">📱</div>
+        <div class="service-card-title">Simple Web Apps</div>
+        <div class="service-card-desc">Got an app idea? I can help build it. From concept to a working product, I turn ideas into real apps that people can actually use.</div>
+        <span class="service-card-tag">App Dev</span>
+      </div>
+      <div class="service-card">
+        <div class="service-card-icon">🎨</div>
+        <div class="service-card-title">UI Design</div>
+        <div class="service-card-desc">Good design makes all the difference. I craft interfaces that look great and feel smooth — making sure every user has an amazing experience.</div>
+        <span class="service-card-tag">Design</span>
+      </div>
+      <div class="service-card">
+        <div class="service-card-icon">⚡</div>
+        <div class="service-card-title">Custom Builds</div>
+        <div class="service-card-desc">Need something unique? I take on custom projects and build exactly what you need — no templates, no shortcuts, just quality work.</div>
+        <span class="service-card-tag">Custom</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">04 — Contact</div>
+    <div class="contact-inner">
+      <h2 class="section-title">LET'S<br>CONNECT</h2>
+      <p>Got something on your mind? Want to collaborate, chat, or just say hi? I'd love to hear from you. Drop me a message anytime.</p>
+      <div class="contact-links">
+        <a href="mailto:ayaanxaslam@gmail.com" class="btn btn-primary">Send an Email</a>
+        <a href="#hero" class="btn btn-outline">Back to Top</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2026 Ayaan</span>
+    <a href="https://www.youtube.com/@AyaanxAslam" target="_blank" rel="noopener noreferrer">www.youtube.com/@AyaanxAslam</a>
+    <a href="mailto:ayaanxaslam@gmail.com">ayaanxaslam@gmail.com</a>
+    <a href="https://lovable.dev" target="_blank" rel="noopener noreferrer">lovable.dev</a>
+  </footer>
+
+  <!-- Background particles -->
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+
+  <script>
+    // Hamburger menu
+    const hamburger = document.getElementById('hamburger');
+    const navDrawer = document.getElementById('navDrawer');
+    
+    if (hamburger && navDrawer) {
+      hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('open');
+        navDrawer.classList.toggle('open');
+      });
+      
+      document.querySelectorAll('.drawer-link').forEach(link => {
+        link.addEventListener('click', () => {
+          hamburger.classList.remove('open');
+          navDrawer.classList.remove('open');
+        });
+      });
+    }
+
+    // Scroll reveal
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.animation = 'fadeUp 0.8s ease forwards';
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    
+    document.querySelectorAll('.stat-card, .skill-item, .service-card, .about-text p, .contact-inner p').forEach(el => {
+      el.style.opacity = '0';
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
